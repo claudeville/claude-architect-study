@@ -1,6 +1,6 @@
 # CCAR Study Code
 
-Live site: https://kman27.github.io/claude-architect-study/
+Live site: https://claudeville.github.io/claude-architect-study/
 
 Current version: **1.8.0** (2026-11-01). Release notes are in the app under `/changelog`.
 
@@ -36,7 +36,7 @@ Ask Claude, generated quiz questions and the practice test call Claude. On GitHu
 1. Push this folder to a GitHub repository (the app is the single file `index.html`).
 2. In the repository, open **Settings > Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save.
-4. The site appears at `https://kman27.github.io/claude-architect-study/` within a minute or two.
+4. The site appears at `https://claudeville.github.io/claude-architect-study/` within a minute or two.
 
 ## Notes
 

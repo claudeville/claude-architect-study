@@ -1662,7 +1662,7 @@ function vStart() {
       '<div class="dim mt">Progress saves in this browser' + (sync === "db" ? " and your claude.ai account" : "") + "; export or import it in /config.</div>"), "");
   const links = TRK === "P" ? ["cp-guide", "cp-path", "cp-prep", "cp-ent"] : ["cert", "academy", "cp-prep", "pr-diag"];
   h += bullet('<span class="h">Key links</span>', res(links.map(id => RES_BY[id]).filter(Boolean).map(r => "· " + link(r)).join("<br>") +
-    '<br>· <a href="https://github.com/kman27/claude-architect-study" target="_blank" rel="noopener">Source code on GitHub</a><br>· <a href="#changelog">What changed in each version</a>'), "");
+    '<br>· <a href="https://github.com/claudeville/claude-architect-study" target="_blank" rel="noopener">Source code on GitHub</a><br>· <a href="#changelog">What changed in each version</a>'), "");
   h += res('<div class="btns"><button class="btn pri" data-act="startgo">Start studying → /today</button><a class="btn" href="#plan" data-act="startplan">See the full plan</a></div>');
   return h;
 }
