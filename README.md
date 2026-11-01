@@ -8,7 +8,7 @@ A study app for the **Claude Certified Architect** exams, styled after the Claud
 
 - `/start`: welcome and setup (track, eligibility, pace, optional API key, how the app works, key links). It opens on a first visit; after that the app opens to `/today`
 - `/today`: readiness estimate, this week's items, what to do next
-- `/plan`: typed items (60 for Foundations, 61 for Professional) (read, course, lab, video, quiz, build, practice) packed into weeks at your chosen pace, each with a suggested slot and a **+cal** link to add it to Google Calendar
+- `/plan`: 60 items for Foundations or 61 for Professional, each typed as read, course, lab, video, quiz, build or practice, packed into weeks at your chosen pace, each with a suggested slot and a **+cal** link to add it to Google Calendar
 - `/domains`: the exam domains (5 for Foundations, 7 for Professional), weights, topics, common traps and your progress
 - `/resources`: official courses, docs, Anthropic papers and webinars, blogs, GitHub repos, videos and practice exams
 - `/labs`: 24 short guided labs, each built on an official guide (Claude cookbook, Platform and Claude Code docs, Claude Academy, MCP docs)
